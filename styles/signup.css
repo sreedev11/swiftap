@@ -1,0 +1,54 @@
+.div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.formclass1 {
+    background-color: black;
+    padding: 32px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.formclass1 h1,
+.formclass1 h3,
+.formclass1 label {
+    color: aliceblue;
+}
+
+.formclass1 input[type="text"],
+.formclass1 input[type="password"] {
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formclass1 input[type="submit"] {
+    padding: 10px;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.formclass1 input[type="submit"]:hover {
+    background-color: red;
+    color: white;
+}
+
+.formclass1 a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.formclass1 a:hover {
+    color: red;
+}
